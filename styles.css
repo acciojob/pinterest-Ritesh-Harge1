@@ -1,1 +1,56 @@
 /*  your css code here. If applicable */
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero Container */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+
+/* Left Content */
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.explore-btn {
+  padding: 12px 24px;
+  background-color: #e60023; /* Pinterest red */
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: #c1001b;
+}
+
+/* Right Image */
+.hero-image img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
